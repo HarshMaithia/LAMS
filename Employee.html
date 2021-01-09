@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>LAMS - Employee</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg myNavbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">LAMS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login as :
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Employee.html">Employee</a></li>
+                <li><a class="dropdown-item" href="login.html">Admin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="container-fluid">
+    <div class="row justify-content-md-center">
+        <div class="col col-sm-8 m-2 app-wrap">
+          <h2 class="homeTitle center mb-5">Leave Application</h2>
+          <form>
+          <div class="input-group input-group-lg mb-3" style="width: 70%; margin: auto;">
+            <span class="input-group-text" id="basic-addon1">Employee ID</span>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group input-group-lg mb-3" style="width: 70%; margin: auto;">
+            <span class="input-group-text" id="basic-addon1">Employee Name</span>
+            <input type="text" class="form-control" placeholder="Enter Employee Name" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group input-group-lg mb-3" style="width: 70%; margin: auto;">
+            <span class="input-group-text" id="basic-addon1">Department</span>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="input-group input-group-lg mb-3" style="width: 70%; margin: auto;">
+            <span class="input-group-text" id="basic-addon1">Head of Department</span>
+            <input type="text" class="form-control" placeholder="HOD Name">
+          </div>
+
+          <div class="input-group input-group-lg mb-3" style="width: 70%; margin: auto;">
+            <span class="input-group-text" id="basic-addon1">Date/s of Leave</span>
+            <input type="text" class="form-control" placeholder="Start Date" aria-label="Username" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="End Date" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group" style="width: 70%; margin: auto;">
+            <span class="input-group-text w-100">Reason of Leave :</span>
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+
+          <div class="mb-3 mt-3" style="width: 70%; margin: auto;">
+            <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+            <button type="button" class="btn btn-primary btn-lg">Submit</button>
+          </div>
+        </form>
+        </div>
+        <div class="col col-sm-3 m-2 settings-wrap">
+            <h2 class="homeTitle center">Settings</h2>
+            <div class="settings-wrap settingsBtn">
+            <div class="d-grid gap-2 col-10 mx-auto">
+              <button type="button" class="btn btn-outline-light mb-3 mt-3">My Profile</button>
+
+              <button type="button" class="btn btn-light mb-3">Application</button>
+
+              <button type="button" class="btn btn-outline-light mb-3">Leave Records</button>
+
+              <button type="button" class="btn btn-outline-light mb-3">Track My Leave</button>
+
+              <button type="button" class="btn btn-dark mb-3">Logout</button>
+              
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+      <footer class="footer mt-auto py-3 myNavbar fixed-bottom">
+        <div class="container">
+          <br> <br>
+          <span class="text-muted">Place sticky footer content here.</span>
+          <br> <br>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

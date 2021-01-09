@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+.myNavbar , .myNavbar a {
+    background: #6155a6;
+    color: floralwhite;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 250, 240, 0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.navbar-toggler {
+    border-color: rgb(255, 250, 240);
+  }
+
+.jumbotron {
+    background: #e8efeb;
+    color:#0f3057;
+    padding: 8px;
+    margin: 0px;
+}  
+
+.homeTitle {
+    color: #583d72;
+    width: 100%;
+    margin-bottom: 8px;
+}  
+
+.homediv {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content:center;
+}
+  
+.homedata, .homeTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #583d72;
+    background: #da9ff9;
+    border: #b088f9 solid 4px;
+    padding: 7px;
+}  
+
+.empdiv {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: first baseline;
+    margin-top: 70px;
+}
+
+.app-wrap {
+    color: #583d72;
+    background: #da9ff9;
+    border: #b088f9 solid 4px;
+    padding: 7px;
+    min-height: 60vh;
+    min-width: 50vw;
+    margin-left: 25px;
+}
+
+.settings-wrap{
+    color: #583d72;
+    background: #da9ff9;
+    border: #b088f9 solid 4px;
+    padding: 7px;
+    min-height: 60vh;
+}
+
+.settingsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.settingsBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
